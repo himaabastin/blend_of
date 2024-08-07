@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 const Navbar = () => {
   let navigate = useNavigate();
   return (
-    <div className="fixed w-full bg-transparent k">
+    <div className="fixed w-full bg-[#050226] k">
       <h1
         className="text-white font-bold text-2xl  px-7 py-5   cursor-pointer "
         onClick={() => navigate("/")}

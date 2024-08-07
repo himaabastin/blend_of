@@ -1,10 +1,10 @@
 import React from "react";
-
+import Accordions from "../components/Accordion/Accordions";
 const Accordion = () => {
   return (
-    <h1 className="text-xl underline text-green-600 bg-black ">
-      Accordion page
-    </h1>
+    <div className="w-full min-h-screen mt-3 ">
+      <Accordions />
+    </div>
   );
 };
 
